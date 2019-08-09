@@ -1,0 +1,7 @@
+@media only screen and (min-width: 300px) and (max-width: 400px){
+  .card-wrapper {
+    background-color: #6FB7E9;
+    width: 300px;
+    padding: 20px 0px;
+  }
+}

@@ -1,0 +1,159 @@
+html {
+ margin:0;
+ height:auto;
+ height:100%!important;
+ overflow:auto;
+}
+
+body {
+ margin:0;
+ font-family:Arial, Helvetica, san-serif;
+}
+
+img {
+ border:0;
+ vertical-align:middle;
+ padding:0 2px;
+}
+
+form {
+ margin:0;
+ padding:0;
+}
+
+input, select, textarea {
+ font-family:Arial, Helvetica, san-serif;
+ font-size:12px;
+ border:1px solid #aaaaaa;
+ padding:1px;
+}
+
+div, span, td, p, legend {
+ font-family:Arial, Helvetica, san-serif;
+ font-size:12px;
+}
+
+div.dialogBox {
+ border-style:solid;
+ border-width:2px;
+ border-color:#eeeeee #999999 #999999 #eeeeee;
+ background-color:#f2f2f2;
+ text-align:left;
+ font-size:12px;
+}
+
+div.dialogBox .dboxTbTitle {
+	background-color:#226c94;
+}
+
+div.dialogBox .dboxTbLeft {
+	width:5px;
+}
+
+div.dialogBox .dboxTbRight {
+	width:16px;
+	padding:5px;
+	text-align:center;
+	vertical-align:top;
+}
+
+div.dialogBox .dboxTitle {
+	font-weight:bold;
+	white-space:nowrap;
+	color:#ffffff;
+	padding:5px;
+	cursor:move;
+}
+
+div.dialogBox .dboxMainPanel {
+ /*background-color:#ff0000;*/
+}
+
+div.dialogBox .dboxButtons {
+ padding:5px;
+ text-align:right;
+}
+
+div.dialogBox .dboxButtons input {
+ width:100px;
+ height:25px;
+ border-top:2px solid #eeeeee;
+ border-left:2px solid #eeeeee;
+ border-right:2px solid #999999;
+ border-bottom:2px solid #999999;
+ background-color:buttonface;
+ margin-right:5px;
+}
+
+div.dialogBox .dboxMainPanel .dboxContentArea {
+	margin:5px;
+}
+
+.loadingpoint {
+	position:absolute;
+ top:0;
+ right:0;
+ color:#ffffff;
+ background-color:#ff0000;
+ font-weight:bold;
+ text-align:center;
+ line-height:24px;
+ padding:0 10px;
+}
+
+.warning {
+ text-align:center;
+ color:#ff0000;
+ line-height:40px;
+}
+
+.messagebox {
+ border:1px inset #999999;
+ background-color:#ffffff;
+ margin:10px auto;
+ padding:2px;
+ width:250px;
+ color:#e70000;
+ font-weight:bold;
+}
+
+a {
+ color:#f98100;
+ font-weight:bold;
+ text-decoration:underline;
+}
+
+a:hover {
+ color:#f90600;
+ text-decoration:none;
+}
+
+fieldset { 
+ padding:5px; 
+ border:1px solid #dddddd; 
+ margin:5px
+}
+
+legend {
+ padding:0.2em 0.5em;
+ border:1px solid #dddddd;
+ color:#ffffff;
+ background-color:#226c94;
+ font-weight:bold;
+}
+
+fieldset #list {
+ min-height:400px;
+ background-color:#ffffff;
+}
+
+fieldset .list {
+ background-color:#ffffff;
+ overflow:auto;
+}
+
+.link {
+ text-align:right;
+ margin:5px 0;
+ padding:1px;
+}

@@ -1,0 +1,27 @@
+ul{
+list-style-type:none;
+padding-left:10px;
+margin:0px;
+}	
+ul li>div{
+padding:1px 0 1px 3px;
+white-space:nowrap;
+}						
+.directory_expanded{
+background:url(images/folder_open.png) no-repeat top left;
+padding:1px 0 0 20px;
+}
+.directory_collapsed{
+background:url(images/directory.png) no-repeat top left;
+padding:1px 0 0 20px;
+}
+.file{
+background:url(images/file.png) no-repeat top left;
+padding:1px 0 0 20px;
+}
+.container{
+width:250px;
+height:350px;
+overflow:auto;
+display:inline-block;				
+}

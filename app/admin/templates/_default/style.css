@@ -1,0 +1,538 @@
+#header {
+ position:relative;
+ width:100%;
+ height:55px;
+ background:url(images/background.png) repeat-x scroll;
+ border-bottom:1px solid #dddddd;
+ font-size:12px;
+}
+
+#webim_logo {
+ position:absolute;
+ width:52px;
+ height:52px;
+ left:10px;
+ top:1px;
+ background:url(images/logo.png) no-repeat scroll;
+}
+
+.webim_title {
+ position:absolute;
+ top:5px;
+ left:75px;
+ font-size:20px;
+ color:#ffffff;
+}
+
+.webim_title_shadow {
+ position:absolute;
+ top:6px;
+ left:76px;
+ font-size:20px;
+ color:#333333;
+}
+
+.date {
+ position:absolute;
+ top:35px;
+ left:75px;
+ color:#ffffff;
+}
+
+#logindiv {
+ position:absolute;
+ width:500px;
+ margin:auto;
+ text-align:left
+}
+
+#loginresult {
+ padding:10px;
+ border:1px solid #aaaaaa;
+ text-align:center
+}
+
+.login_accepted {
+ border-color:#2d9422;
+ color:#2d9422;
+ font-weight:bold;
+}
+
+.login_error {
+ border-color:#ff0000;
+ color:#ff0000;
+ font-weight:bold;
+}
+
+#menuBar {
+ position:relative;
+ padding:0 5px;
+ background-color:#226c94;
+ z-index:2;
+}
+
+#submenuBar {
+ position:relative;
+ width:100%;
+ height:35px;
+ background-color:#e5edf1;
+ border-top:1px solid #ffffff;
+ border-bottom:1px solid #cccccc;
+}
+
+#submenuBar .menuList {
+ position:absolute;
+ left:10px;
+ top:0;
+ line-height:35px;
+}
+
+#submenuBar .menuList ul {
+ list-style:none;
+ padding:0;
+ margin:0;
+}
+
+#submenuBar .menuList li {
+ display:inline;
+ margin-right:10px;
+ font-size:12px;
+ padding:5px 0;
+}
+
+#submenuBar .menuList li a {
+ padding:5px 0;
+ text-decoration:none;
+ color:#000000;
+}
+
+#submenuBar .menuList li a:hover {
+ color:#ff0000;
+}
+
+#submenuBar .title {
+ position:absolute;
+ line-height:35px;
+ right:5px;
+ top:0;
+ font-size:18px;
+ font-weight:bold;
+ color:#043f5f;
+}
+
+#submenuBar img {
+ margin:0 5px;
+}
+
+#body {
+ padding:5px 5px 35px 5px;
+ font-size:12px;
+}
+
+#footer {
+ position:fixed;
+ left:0;
+ bottom:0;
+ width:100%;
+ height:25px;
+ border-top:1px solid #dddddd;
+ background:#ffffff;
+}
+
+#footer #copyright {
+ position:absolute;
+ left:10px;
+ top:5px;
+ font-size:10px;
+}
+
+#footer #version {
+ position:absolute;
+ right:10px;
+ top:5px;
+ font-size:10px;
+}
+
+.buttonBar {
+ text-align:right;
+ padding:5px;
+}
+
+button {
+ margin-right:5px;
+ padding:2px 10px;
+ background:#ffffff url(images/button.png) repeat scroll 0 0;
+ font-weight:bold;
+ color:#333333;
+}
+
+button:hover {
+ background:#ffffff url(images/button_over.png) repeat scroll 0 0;
+ color:#c73e0e;
+ cursor:default;
+}
+
+.button {
+ background:#ffffff url(images/button.png) repeat scroll 0 0;
+ color:#666666;
+ border:1px solid #aaaaaa;
+ padding:0 5px;
+ font-weight:normal;
+}
+
+.button:hover {
+ background:#ffffff url(images/button_over.png) repeat scroll 0 0;
+ border:1px solid #fbd99d;
+ color:#c73e0e;
+ cursor:default;
+}
+
+.error {
+ text-align:center;
+}
+
+.error div {
+ width:80%;
+ margin:auto;
+ border:2px solid #f3334f;
+ font-weight:bold;
+ padding:5px;
+ font-size:18px;
+ color:#f3334f
+}
+
+a.new {
+ background:url(../../../objects/icons/16x16/document_add.png) no-repeat scroll left center;
+ padding:2px 0 2px 20px;
+}
+
+a.open {
+ background:url(../../../objects/icons/16x16/folder.png) no-repeat scroll left center;
+ padding:2px 0 2px 20px;
+}
+
+a.upload {
+ background:url(../../../objects/icons/16x16/upload.png) no-repeat scroll left center;
+ padding:2px 0 2px 20px;
+}
+
+a.on {
+ background:url(../../../objects/icons/16x16/bulb_on.png) no-repeat scroll left center;
+ padding:2px 0 2px 20px;
+}
+
+a.off {
+ background:url(../../../objects/icons/16x16/bulb_off.png) no-repeat scroll left center;
+ padding:2px 0 2px 20px;
+}
+
+a.edit {
+ background:url(../../../objects/icons/16x16/edit.png) no-repeat scroll left center;
+ padding:2px 0 2px 20px;
+}
+
+a.clear {
+ background:url(../../../objects/icons/16x16/clean.png) no-repeat scroll left center;
+ padding:2px 0 2px 20px;
+}
+
+a.picture {
+ background:url(../../../objects/icons/16x16/graphic.png) no-repeat scroll left center;
+ padding:2px 0 2px 20px;
+}
+
+a.xml {
+ background:url(../../../objects/icons/16x16/xml.png) no-repeat scroll left center;
+ padding:2px 0 2px 20px;
+}
+
+.box {
+ position:relative;
+ border-style:solid;
+ border-color:#c3c8cd;
+ border-width:1px 2px 2px 1px;
+ margin-bottom:5px;
+}
+
+.gridLeft {
+ text-align:right;
+ font-weight:bold;
+ border-bottom:1px solid #dddddd;
+ background-color:#f6f6f6;
+}
+
+.gridRight {
+ border-bottom:1px solid #dddddd;
+ background-color:#ffffff;
+}
+
+.gridLeft:after {
+ content:':';
+}
+
+.gridTitle{
+ border-left:1px #c1c1c1 solid;
+ border-right:1px #ffffff solid; 
+ border-bottom:1px #c3c8cd solid;
+ background-color:#e9ecef;
+ font-weight:bold;
+}
+
+.rowSelected{
+ border-bottom:1px solid #c3c8cd;
+ background-color:#dbfff9;
+ color:#36407c;
+}
+
+.gridRowOver{
+ border-bottom:1px solid #c3c8cd;
+ background-color:#fffecb;
+ color:#0055ab;
+ cursor:pointer;
+}
+
+.gridRow{
+ border-bottom: 1px solid #c3c8cd;
+ background-color: #f8f8f8;
+}
+
+.filterBar {
+ padding:5px 0;
+}
+
+.searchInput {
+ width:200px;
+ background:url(../../../objects/icons/16x16/note.png) no-repeat left center;
+ padding-left:20px;
+}
+
+.tabs {
+ padding-top:5px;
+}
+
+.tabs ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+    
+.tabs ul li {
+	float:left;
+	border:1px solid #bbbbbb;
+	border-bottom-width:0;
+	margin-left:5px;
+	background:#f2f2f2 none repeat scroll 0 0;
+}
+    
+.tabs ul li a {
+	display:block;
+	text-decoration:none;
+	background:#f2f2f2;
+	padding:0.24em 1em;
+	color:#aaaaaa;
+	text-align:center;
+	font-weight:normal;
+}
+	
+.tabs ul li a:hover {
+	color:#000000;
+}
+	
+.tabs .here {
+	position:relative;
+	top:1px;
+}
+	
+.tabs .here a {
+	background:#f2f2f2 none repeat scroll 0 0;
+	color:#333333;
+	font-weight:bold;
+}
+
+.tabbing {
+ clear:both;
+ overflow:auto;
+	border:1px solid #bbbbbb;
+	padding:2px;
+}
+
+.red {
+ color:#bf3317;
+ font-weight:bold;
+}
+
+.green {
+ color:#7fbf17;
+ font-weight:bold;
+}
+
+.question {
+ font-weight:bold;
+ margin-bottom:5px;
+}
+
+.question:after {
+ content:':';
+}
+
+.answer {
+ margin-bottom:5px;
+}
+
+#text {
+ min-height:400px;
+}
+
+ul.contextMenu {
+ display:none;
+ position:absolute;
+ margin:0px;
+ padding:0px;
+ font-family:Verdana;
+ font-size:12px;
+ list-style-type:none;
+ border-top:1px solid #000000;
+ border-left:1px solid #000000;
+ border-right:1px solid #000000;
+}
+
+ul.contextMenu li {
+ border-bottom:1px solid #000000;
+}
+
+ul.contextMenu li a {
+ display:block;
+ width:100px;
+ padding:2px 10px 3px 10px;
+ text-decoration:none;
+ color:#ff0000;
+ background:#eeeeee none repeat scroll 0 0;
+}
+
+ul.contextMenu li a:hover {
+ text-decoration:none;
+ color:#ffffff;
+ background:#ff0000 none repeat scroll 0 0;
+}
+
+.uploadContainer {
+ position:relative;
+}
+
+.progressWrapper {
+	width: 100%;
+	overflow: hidden;
+}
+
+.progressContainer {
+	margin:5px;
+	padding:4px;
+	border:1px solid #E8E8E8;
+	background-color:#F7F7F7;
+	overflow:hidden;
+}
+
+.progressRed {
+	border:1px solid #B50000;
+	background-color: #FFEBEB;
+}
+
+.progressGreen {
+	border:1px solid #DDF0DD;
+	background-color: #EBFFEB;
+}
+
+.progressBlue {
+	border:1px solid #CEE2F2;
+	background-color: #F0F5FF;
+}
+
+.progressName {
+	font-size: 8pt;
+	font-weight: 700;
+	color: #555;
+	width: 90%;
+	height: 14px;
+	text-align: left;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.progressBarInProgress,
+.progressBarComplete,
+.progressBarError {
+	font-size: 0;
+	width: 0%;
+	height: 2px;
+	background-color: blue;
+	margin-top: 2px;
+}
+
+.progressBarComplete {
+	width: 100%;
+	background-color: green;
+	visibility: hidden;
+}
+
+.progressBarError {
+	width: 100%;
+	background-color: red;
+	visibility: hidden;
+}
+
+.progressBarStatus {
+	margin-top: 2px;
+	width:100%;
+	font-size: 7pt;
+	font-family: Arial;
+	text-align: left;
+	white-space: nowrap;
+}
+
+a.progressCancel {
+	font-size: 0;
+	display: block;
+	height: 14px;
+	width: 14px;
+	background:url(images/cancel.gif) no-repeat scroll -14px 0px;
+	float: right;
+}
+
+a.progressCancel:hover {
+	background-position: 0px 0px;
+}
+
+.swfupload {
+	vertical-align: top;
+}
+
+.smallDescription {
+ font-size:10px;
+ font-style:italic;
+}
+
+.contentEdit {
+ line-height:30px;
+ text-align:right;
+ padding:0 5px;
+}
+
+.empty {
+ color:#aaaaaa;
+ text-align:center;
+ margin:100px 0;
+}
+.caution{
+border:1px solid #fad42e; 
+background:#FFFBE8;
+margin:5px;
+padding:5px;
+text-align:center;
+color:#333333;
+}
+.hidden{
+display:none;
+}
+.padding4px{
+padding:4px;
+}
