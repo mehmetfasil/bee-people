@@ -5,7 +5,7 @@
     "gulp-watch": "~4.1.0",
     "gulp": "~3.8.10",
     "gulp-util": "~3.0.3",
-    "react": "~0.12.2",
+    "react": "~16.13.1",
     "reactify": "~1.0.0",
     "webpack": "~1.5.3",
     "jsx-loader": "~0.12.2",
